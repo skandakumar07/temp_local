@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>VOCAL FOR LOCAL</title>
+    <style>
+    body {
+    background-color: #f1f1f1; /* light gray background */
+    font-family: 'Montserrat', sans-serif; /* change font to Montserrat */
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: firebrick;
+    color: #fff;
+}
+header a {
+text-decoration: none;
+color: #fff;
+font-size: 4rem;
+margin-right: 10px;
+transition: all 0.2s ease-in-out;
+padding-right: 3rem;
+}
+header a:hover {
+color: #f1f1f1;
+}
+
+.header-title {
+    font-family: 'Raleway', sans-serif;
+            text-align: center;
+            color: firebrick;
+            font-size: 10rem;
+            font-weight: 1500;
+            margin-bottom: 10px;
+}
+
+hr {
+color: black;
+border-top-style: dotted;
+width: 30%;
+border-width: 4px;
+margin: 20px auto;
+}
+
+form {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+
+form div {
+display: flex;
+flex-direction: column;
+align-items: center; /* added */
+width: 80%;
+padding: 20px;
+background-color: black;
+border-radius: 10px;
+box-shadow: 0px 0px 10px #ccc;
+margin: 20px 0;
+color: #fff;
+
+
+}
+
+form label {
+font-size: 2rem;
+margin-bottom:10px;
+
+}
+
+form input[type="text"], form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: none;
+box-shadow: 0px 0px 5px #ccc;
+
+}
+
+form input[type="submit"] {
+background-color: firebrick;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+font-size: 1.2rem;
+margin-top: 20px;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+background-color: #f1f1f1;
+color: firebrick;
+width: 25rem;
+}
+form input[type="text"]:hover{
+    font-size: 4rem;
+    
+}
+
+@media only screen and (max-width: 600px) {
+form div {
+width: 90%;
+}
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="mainpage.html"><i class="fas fa-home"></i></a>
+            <a href="info.html"><i class="fas fa-info-circle"></i></a>
+            <a href="contact.html"><i class="fas fa-phone"></i></a>
+        </nav>
+    </header>
+    <div class="header-title">VOCAL FOR LOCAL</div>
+    <hr>
+<form>
+    <div>
+        <label for="name">NAME OF THE SHOP:</label>
+        <input type="text" name="namesh" id="name">
+        <label for="owner" >OWNER:</label>
+        <input type="text" name="owner" id="owner">
+        <label for="phnum" >MOBILE NO:</label>
+        <input type="text" name="phnum" id="phnum">
+        <label for="payment" >DOES THIS SHOP CONTAIN ONLINE PAYMENT:</label>
+        <input type="radio" name="payment" value="yes" id="payment-yes">
+        <label for="payment-yes" >Yes</label>
+        <input type="radio" name="payment" value="no" id="payment-no">
+        <label for="payment-no" >No</label>
+        <label for="pic" >UPLOAD THE PIC OF THE SHOP:</label>
+        <input type="file" accept="image/*" id="pic">
+        <label for="address">ADDRESS OF THE SHOP:</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>

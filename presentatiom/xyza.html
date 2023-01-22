@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>VOCAL FOR LOCAL</title>
+    <style>
+        /* Add some spacing and padding for better layout */
+        body {
+            background-color: #f1f1f1;
+            font-family: 'Montserrat', sans-serif;
+            padding: 2rem;
+        }
+
+        /* Add a background color and font color for the header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+padding: 2rem;
+background-color: firebrick;
+color: #fff;
+}
+
+
+    /* Add hover effect for the header links */
+    header a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        transition: all 0.2s ease-in-out;
+    }
+    header a:hover {
+        color: #f1f1f1;
+    }
+
+    /* Make the title larger and bolder, and center it */
+    .header-title {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    /* Add a background color and rounded edges for the form */
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 10px #ccc;
+    }
+
+    /* Add spacing and styling for the form elements */
+    form div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+
+    form label {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    form input[type="text"], form textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow: 0px 0px 5px #ccc;
+    }
+
+    /* Add a background color and hover effect for the submit button */
+    form input[type="submit"] {
+        background-color: firebrick;
+        color: #fff;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+    form input[type="submit"]:hover {
+        background-color: #f1f1f1;
+        color: firebrick;
+    }
+    #oo
+    {
+        text-align: center;
+    }
+
+    /* Reduce the size of the form on smaller screens */
+    @media only screen and (max-width: 600px) {
+        form div {
+            width: 90%;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="mainpage.html"><i class="fas fa-home"></i></a>
+<a href="info.html"><i class="fas fa-info-circle"></i></a>
+<a href="contact.html"><i class="fas fa-phone"></i></a>
+</nav>
+</header>
+<div class="header-title">VOCAL FOR LOCAL</div>
+<hr>
+<form>
+<div>
+<label for="name">NAME OF THE SHOP:</label>
+<input type="text" name="namesh" id="name">
+<br>
+<label for="owner">OWNER:</label>
+<input type="text" name="owner" id="owner">
+<br>
+<label for="phnum">MOBILE NO:</label>
+<input type="text" name="phnum" id="phnum">
+<br>
+<label for="payment">DOES THIS SHOP CONTAIN ONLINE PAYMENT:</label>
+<input type="radio" name="payment" id="1">yes
+<input type="radio" name="payment" id="2">no
+<br>
+<label for="image">UPLOAD THE PIC OF THE SHOP:</label>
+<input type="file" accept="image/*" id="image">
+<br>
+<label for="address">ADDRESS OF THE SHOP:</label>
+<br>
+<textarea name="address" id="address" cols="30" rows="10"></textarea>
+<br>
+<input type="submit" value="Submit">
+</div>
+</form>
+<hr>
+<footer>
+    <div id="oo">
+        filling this form makes u a happy indian and will help the society
+    </div>
+</footer>
+</body>
+</html>

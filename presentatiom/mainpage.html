@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Vocal Local</title>
+    <style>
+        body {
+            background-color: black; /* light gray background */
+            font-family: 'Montserrat', sans-serif; /* change font to Montserrat */
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+            padding: 20px;
+        }
+        header a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 4rem;
+            margin-right: 10px;
+            transition: all 0.2s ease-in-out;
+            padding-right: 3rem;
+        }
+        header a:hover {
+            color: rgb(69, 241, 17);
+        }
+        .header-title {
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            color: yellow;
+            font-size: 10rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+
+        }
+        hr {
+            color: black;
+            border-top-style: dotted;
+            width: 30%;
+            border-width: 4px;
+            margin: 20px auto;
+        }
+        @media only screen and (max-width: 600px) {
+            header {
+                flex-wrap: wrap;
+            }
+            header a {
+                font-size: 1rem;
+                margin: 10px 0;
+            }
+            .header-title {
+                font-size: 2rem;
+            }
+            
+        }
+        #raa{
+            display:flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+        }
+        #raa>button{
+            
+            margin:20px;
+            padding:20px;
+            text-align: justify;
+            border-radius: 12px;
+            box-shadow: 0 9px #999;
+        } 
+        button:hover{
+            background-color: green;
+            
+        }
+        .marquee {
+            background-color: black;
+            margin: 0 auto;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .marquee div {
+            display: inline-block;
+            position: relative;
+            left: 100%;
+            animation: marquee 8s linear infinite;
+            height: 800px;
+        }
+        .marquee:hover div {
+            animation-play-state: paused;
+        }
+        .marquee div:nth-child(1) {
+            animation-delay: 0s;
+        }
+        .marquee div:nth-child(2) {
+            animation-delay: 0s;
+        }
+        .marquee div:nth-child(3) {
+            animation-delay: 0s;
+        }
+        .marquee div:nth-child(4) {
+            animation-delay: 0s;
+        }
+        .marquee div:nth-child(5) {
+animation-delay: 0s;
+}
+@keyframes marquee {
+0% { left: 100%; }
+100% { left: -100%; }
+}
+    
+    footer>div{
+        margin-bottom: 2rem;
+    }
+   
+    footer>div>p{
+        font-size: 4rem;
+        text-align: center;
+        color: white;
+    }
+    footer>div>textarea {
+          display: block;
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
+         margin-bottom: 2rem;
+         padding: 12px 20px;
+         
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  background-image:url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGV4dCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+  width:1000px;
+  
+         
+}
+textarea:hover{
+    
+    font-size: 2rem;
+}
+    
+</style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="mainpage.html"><i class="fas fa-home"></i></a>
+            <a href="info.html"><i class="fas fa-info-circle"></i></a>
+            <a href="tel:+917019400282"><i class="fas fa-phone"></i></a>
+        </nav>
+    </header>
+    <hr>
+    <div class="header-title">VOCAL FOR LOCAL</div>
+    <hr>
+    <div class="marquee">
+        <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" style="width: 1350px;"></div>
+        <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" style="width: 1350px"></div>
+        <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" style="width: 1350px"></div>
+        <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" style="width: 1350px"></div>
+        <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" style="width: 1350px"></div>
+    </div>
+    <div id="raa" style="align-items: center">
+        <button><a href="ABC.html"><img src="digital-camera-5771.svg" alt="" style="border-radius: 12px; width:900px ; height: 500px;"></a></button>
+        <button><a href="sell.html"><img src="349544.svg" alt="" style="border-radius: 12px; width:900px ; height: 500px;"  ></a></button>
+    </div>
+    <hr>
+    <footer>
+        <div>
+            <p>you can provide ur ideas ad suggestions here</p>
+            <textarea name="sugestion" id="sugestion" cols="300" rows="15" placeholder="provide ur ideas" ></textarea>
+        </div>
+    </footer>
+</body>
+</html>
